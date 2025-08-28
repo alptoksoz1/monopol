@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 import { Button } from '../ui';
 import { mockHeroImages } from '../../utils/mockImages';
 
@@ -16,41 +17,42 @@ interface HeroSlide {
 }
 
 const HeroSection: React.FC = () => {
+  const { t } = useTranslation('public');
   const [currentSlide, setCurrentSlide] = useState(0);
   const [autoPlay, setAutoPlay] = useState(true);
 
   const heroSlides: HeroSlide[] = [
     {
       id: 1,
-      title: 'Premium Artificial Stone',
-      subtitle: 'Crafted for Perfection',
-      description: 'Transform your spaces with our premium artificial stone solutions. Durable, elegant, and designed to last a lifetime.',
+      title: t('hero.slides.slide1.title'),
+      subtitle: t('hero.slides.slide1.subtitle'),
+      description: t('hero.slides.slide1.description'),
       image: mockHeroImages[0],
       cta: {
-        primary: 'Explore Products',
-        secondary: 'Get Quote'
+        primary: t('hero.slides.slide1.cta_primary'),
+        secondary: t('hero.slides.slide1.cta_secondary')
       }
     },
     {
       id: 2,
-      title: 'Custom Design Solutions',
-      subtitle: 'Tailored to Your Vision',
-      description: 'Create unique architectural elements with our custom artificial stone designs. From concept to installation.',
+      title: t('hero.slides.slide2.title'),
+      subtitle: t('hero.slides.slide2.subtitle'),
+      description: t('hero.slides.slide2.description'),
       image: mockHeroImages[1],
       cta: {
-        primary: 'View Gallery',
-        secondary: 'Contact Us'
+        primary: t('hero.slides.slide2.cta_primary'),
+        secondary: t('hero.slides.slide2.cta_secondary')
       }
     },
     {
       id: 3,
-      title: 'Professional Installation',
-      subtitle: 'Expert Craftsmanship',
-      description: 'Our certified professionals ensure perfect installation with attention to every detail. Quality guaranteed.',
-      image: '/api/placeholder/1920/1080',
+      title: t('hero.slides.slide3.title'),
+      subtitle: t('hero.slides.slide3.subtitle'),
+      description: t('hero.slides.slide3.description'),
+      image: mockHeroImages[2],
       cta: {
-        primary: 'Our Services',
-        secondary: 'Schedule Consultation'
+        primary: t('hero.slides.slide3.cta_primary'),
+        secondary: t('hero.slides.slide3.cta_secondary')
       }
     }
   ];

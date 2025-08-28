@@ -1,13 +1,17 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 import { Card } from '../ui';
+import { getAboutImage } from '../../utils/mockImages';
 
 const AboutSection: React.FC = () => {
+  const { t } = useTranslation('public');
+  
   const stats = [
-    { number: '15+', label: 'Years Experience' },
-    { number: '500+', label: 'Projects Completed' },
-    { number: '50+', label: 'Product Varieties' },
-    { number: '98%', label: 'Client Satisfaction' }
+    { number: t('about.stats.0.number'), label: t('about.stats.0.label') },
+    { number: t('about.stats.1.number'), label: t('about.stats.1.label') },
+    { number: t('about.stats.2.number'), label: t('about.stats.2.label') },
+    { number: t('about.stats.3.number'), label: t('about.stats.3.label') }
   ];
 
   const features = [
@@ -17,8 +21,8 @@ const AboutSection: React.FC = () => {
           <path fillRule="evenodd" d="M3 4a1 1 0 011-1h4a1 1 0 010 2H6.414l2.293 2.293a1 1 0 01-1.414 1.414L5 6.414V8a1 1 0 01-2 0V4zm9 1a1 1 0 010-2h4a1 1 0 011 1v4a1 1 0 01-2 0V6.414l-2.293 2.293a1 1 0 11-1.414-1.414L13.586 5H12zm-9 7a1 1 0 012 0v1.586l2.293-2.293a1 1 0 111.414 1.414L6.414 15H8a1 1 0 010 2H4a1 1 0 01-1-1v-4zm13-1a1 1 0 011 1v4a1 1 0 01-1 1h-4a1 1 0 010-2h1.586l-2.293-2.293a1 1 0 111.414-1.414L15.586 13H14a1 1 0 01-1-1z" clipRule="evenodd" />
         </svg>
       ),
-      title: 'Premium Quality',
-      description: 'Only the finest materials and advanced manufacturing processes ensure superior durability and aesthetics.'
+      title: t('about.features.0.title'),
+      description: t('about.features.0.description')
     },
     {
       icon: (
@@ -26,8 +30,8 @@ const AboutSection: React.FC = () => {
           <path fillRule="evenodd" d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z" clipRule="evenodd" />
         </svg>
       ),
-      title: 'Custom Solutions',
-      description: 'Tailored designs and specifications to meet your unique project requirements and vision.'
+      title: t('about.features.1.title'),
+      description: t('about.features.1.description')
     },
     {
       icon: (
@@ -35,8 +39,8 @@ const AboutSection: React.FC = () => {
           <path fillRule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
         </svg>
       ),
-      title: 'Quality Certified',
-      description: 'All products meet international standards with comprehensive quality certifications and warranties.'
+      title: t('about.features.2.title'),
+      description: t('about.features.2.description')
     },
     {
       icon: (
@@ -44,8 +48,8 @@ const AboutSection: React.FC = () => {
           <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
         </svg>
       ),
-      title: 'Expert Support',
-      description: 'Professional consultation, installation guidance, and ongoing support from our experienced team.'
+      title: t('about.features.3.title'),
+      description: t('about.features.3.description')
     }
   ];
 
@@ -61,10 +65,10 @@ const AboutSection: React.FC = () => {
           viewport={{ once: true }}
         >
           <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4 font-heading">
-            About ArtificialStone
+            {t('about.title')}
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Leading manufacturer of premium artificial stone solutions with over 15 years of excellence in design, quality, and innovation
+            {t('about.subtitle')}
           </p>
         </motion.div>
 
@@ -78,16 +82,10 @@ const AboutSection: React.FC = () => {
           >
             <div className="mb-8">
               <h3 className="text-2xl font-bold text-primary mb-4 font-heading">
-                Crafting Excellence Since 2008
+                {t('about.tagline')}
               </h3>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                We are passionate creators of premium artificial stone products that transform architectural visions into reality. Our commitment to quality, innovation, and customer satisfaction has made us a trusted partner for architects, designers, and homeowners worldwide.
-              </p>
-              <p className="text-gray-600 mb-6 leading-relaxed">
-                From kitchen countertops to exterior cladding, our diverse product range combines the beauty of natural stone with the performance advantages of modern engineering. Every piece is crafted with precision and backed by our unwavering quality guarantee.
-              </p>
-              <p className="text-gray-600 leading-relaxed">
-                Our state-of-the-art manufacturing facility and experienced team ensure that each product meets the highest standards of durability, aesthetics, and environmental responsibility.
+                {t('about.description')}
               </p>
             </div>
 
@@ -100,8 +98,8 @@ const AboutSection: React.FC = () => {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-primary">Innovation First</h4>
-                  <p className="text-gray-600 text-sm">Continuously advancing our technology and techniques to deliver superior products.</p>
+                  <h4 className="font-semibold text-primary">{t('about.values.innovation.title')}</h4>
+                  <p className="text-gray-600 text-sm">{t('about.values.innovation.description')}</p>
                 </div>
               </div>
 
@@ -112,8 +110,8 @@ const AboutSection: React.FC = () => {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-primary">Sustainable Practices</h4>
-                  <p className="text-gray-600 text-sm">Committed to environmentally responsible manufacturing and sustainable sourcing.</p>
+                  <h4 className="font-semibold text-primary">{t('about.values.sustainability.title')}</h4>
+                  <p className="text-gray-600 text-sm">{t('about.values.sustainability.description')}</p>
                 </div>
               </div>
 
@@ -124,8 +122,8 @@ const AboutSection: React.FC = () => {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-primary">Customer Focus</h4>
-                  <p className="text-gray-600 text-sm">Dedicated to understanding and exceeding our customers' expectations at every step.</p>
+                  <h4 className="font-semibold text-primary">{t('about.values.customer_focus.title')}</h4>
+                  <p className="text-gray-600 text-sm">{t('about.values.customer_focus.description')}</p>
                 </div>
               </div>
             </div>
@@ -141,7 +139,7 @@ const AboutSection: React.FC = () => {
           >
             <div className="relative">
               <img
-                src="/api/placeholder/600/400"
+                src={getAboutImage('company-facility')}
                 alt="Manufacturing facility"
                 className="rounded-lg shadow-xl"
               />
@@ -155,8 +153,8 @@ const AboutSection: React.FC = () => {
                     </svg>
                   </div>
                   <div>
-                    <div className="font-bold text-primary text-2xl">ISO 9001</div>
-                    <div className="text-gray-600 text-sm">Certified Quality</div>
+                    <div className="font-bold text-primary text-2xl">{t('about.certification.title')}</div>
+                    <div className="text-gray-600 text-sm">{t('about.certification.subtitle')}</div>
                   </div>
                 </div>
               </div>

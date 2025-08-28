@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 import { Button, Input, Card } from '../ui';
 
 interface FormData {
@@ -16,6 +17,7 @@ interface FormErrors {
 }
 
 const ContactForm: React.FC = () => {
+  const { t } = useTranslation('public');
   const [formData, setFormData] = useState<FormData>({
     name: '',
     email: '',
@@ -132,10 +134,10 @@ const ContactForm: React.FC = () => {
           viewport={{ once: true }}
         >
           <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4 font-heading">
-            Get In Touch
+            {t('contact.title')}
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Ready to transform your space? Contact our experts for a consultation and custom quote
+            {t('contact.subtitle')}
           </p>
         </motion.div>
 

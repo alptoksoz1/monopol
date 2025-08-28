@@ -1,5 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 import { Card, Modal } from '../ui';
 import { getProductImage } from '../../utils/mockImages';
 
@@ -21,6 +22,7 @@ interface Product {
 }
 
 const ProductGallery: React.FC = () => {
+  const { t } = useTranslation('public');
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
   const [searchTerm, setSearchTerm] = useState('');
@@ -79,8 +81,8 @@ const ProductGallery: React.FC = () => {
       id: 4,
       name: 'Travertine Natural',
       category: 'Flooring',
-      image: '/api/placeholder/400/300',
-      images: ['/api/placeholder/400/300', '/api/placeholder/400/300'],
+      image: getProductImage('travertine-shower-walls'),
+      images: [getProductImage('travertine-shower-walls'), getProductImage('limestone-interior-floor')],
       description: 'Classic travertine look with modern performance. Perfect for high-traffic flooring applications.',
       specifications: {
         dimensions: '600mm x 400mm x 12mm',
@@ -95,8 +97,8 @@ const ProductGallery: React.FC = () => {
       id: 5,
       name: 'Onyx Luxury Line',
       category: 'Feature Walls',
-      image: '/api/placeholder/400/300',
-      images: ['/api/placeholder/400/300', '/api/placeholder/400/300', '/api/placeholder/400/300'],
+      image: getProductImage('onyx-luxury-bathroom'),
+      images: [getProductImage('onyx-luxury-bathroom'), getProductImage('marble-fireplace-surround'), getProductImage('natural-stone-wall')],
       description: 'Stunning onyx patterns with backlight capabilities. Create dramatic feature walls and accent pieces.',
       specifications: {
         dimensions: '3200mm x 1600mm x 6mm',
@@ -111,8 +113,8 @@ const ProductGallery: React.FC = () => {
       id: 6,
       name: 'Sandstone Rustic',
       category: 'Outdoor Paving',
-      image: '/api/placeholder/400/300',
-      images: ['/api/placeholder/400/300', '/api/placeholder/400/300'],
+      image: getProductImage('sandstone-patio-tiles'),
+      images: [getProductImage('sandstone-patio-tiles'), getProductImage('granite-outdoor-paving')],
       description: 'Weather-resistant sandstone effect for outdoor applications. Non-slip surface for safety.',
       specifications: {
         dimensions: '400mm x 400mm x 20mm',
@@ -170,10 +172,10 @@ const ProductGallery: React.FC = () => {
           viewport={{ once: true }}
         >
           <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4 font-heading">
-            Our Product Gallery
+            {t('products.title')}
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Explore our extensive collection of premium artificial stone products designed for every application
+            {t('products.subtitle')}
           </p>
         </motion.div>
 

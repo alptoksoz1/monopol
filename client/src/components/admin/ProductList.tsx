@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Button, Card, Modal, LoadingSpinner } from '../ui';
-import { getProductImage } from '../../utils/mockImages';
+import { getProductImage, getFallbackImage } from '../../utils/mockImages';
 
 interface Product {
   _id: string;
@@ -287,7 +287,7 @@ const ProductList: React.FC<ProductListProps> = ({ onEdit, onAdd, refreshTrigger
                   {/* Product Image */}
                   <div className="relative h-48 overflow-hidden">
                     <img
-                      src={product.images.find(img => img.isPrimary)?.url || product.images[0]?.url || '/api/placeholder/300/200'}
+                      src={product.images.find(img => img.isPrimary)?.url || product.images[0]?.url || getFallbackImage(300, 200)}
                       alt={product.images.find(img => img.isPrimary)?.alt || product.name}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                     />

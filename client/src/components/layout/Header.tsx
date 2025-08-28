@@ -1,12 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 import { Button } from '../ui';
+import LanguageSwitcher from '../ui/LanguageSwitcher';
 
 interface HeaderProps {
   transparent?: boolean;
 }
 
 const Header: React.FC<HeaderProps> = ({ transparent = false }) => {
+  const { t } = useTranslation('common');
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -20,11 +23,11 @@ const Header: React.FC<HeaderProps> = ({ transparent = false }) => {
   }, []);
 
   const navigationItems = [
-    { name: 'Home', href: '#hero' },
-    { name: 'Products', href: '#products' },
-    { name: 'About', href: '#about' },
-    { name: 'Services', href: '#services' },
-    { name: 'Contact', href: '#contact' },
+    { name: t('navigation.home'), href: '#hero' },
+    { name: t('navigation.products'), href: '#products' },
+    { name: t('navigation.about'), href: '#about' },
+    { name: t('navigation.services'), href: '#services' },
+    { name: t('navigation.contact'), href: '#contact' },
   ];
 
   const scrollToSection = (href: string) => {
@@ -98,14 +101,15 @@ const Header: React.FC<HeaderProps> = ({ transparent = false }) => {
             ))}
           </nav>
 
-          {/* Desktop CTA Button */}
+          {/* Desktop CTA Button and Language Switcher */}
           <div className="hidden lg:flex items-center space-x-4">
+            <LanguageSwitcher />
             <Button
               variant="outline"
               size="md"
               onClick={() => scrollToSection('#contact')}
             >
-              Get Quote
+              {t('navigation.contact')}
             </Button>
           </div>
 
@@ -178,18 +182,19 @@ const Header: React.FC<HeaderProps> = ({ transparent = false }) => {
                 </motion.button>
               ))}
               <motion.div
-                className="pt-4 border-t border-gray-200"
+                className="pt-4 border-t border-gray-200 space-y-4"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.5 }}
               >
+                <LanguageSwitcher />
                 <Button
                   variant="primary"
                   size="md"
                   fullWidth
                   onClick={() => scrollToSection('#contact')}
                 >
-                  Get Quote
+                  {t('navigation.contact')}
                 </Button>
               </motion.div>
             </div>

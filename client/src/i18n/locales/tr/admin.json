@@ -1,0 +1,318 @@
+{
+  "auth": {
+    "login": "Giriş Yap",
+    "logout": "Çıkış Yap",
+    "email": "E-posta Adresi",
+    "password": "Şifre",
+    "remember_me": "Beni hatırla",
+    "forgot_password": "Şifremi unuttum?",
+    "signing_in": "Giriş yapılıyor...",
+    "sign_in": "Giriş Yap",
+    "welcome_back": "Tekrar Hoş Geldiniz",
+    "admin_portal": "Yönetici Paneli",
+    "sign_in_subtitle": "Yönetici paneline erişmek için giriş yapın",
+    "demo_credentials": "Demo Kullanıcı Bilgileri",
+    "admin_role": "Yönetici",
+    "editor_role": "Editör"
+  },
+  "dashboard": {
+    "title": "Kontrol Paneli",
+    "subtitle": "Yapay taş işletmenizin genel görünümü",
+    "stats": {
+      "total_products": "Toplam Ürün",
+      "categories": "Kategori",
+      "media_files": "Medya Dosyası",
+      "new_inquiries": "Yeni Sorgu",
+      "this_month": "Bu ay +{{count}}",
+      "this_week": "Bu hafta +{{count}}",
+      "today": "Bugün +{{count}}",
+      "no_change": "Değişiklik yok"
+    },
+    "quick_actions": {
+      "title": "Hızlı İşlemler",
+      "add_product": "Yeni Ürün Ekle",
+      "add_product_desc": "Yeni bir ürün listesi oluştur",
+      "manage_categories": "Kategorileri Yönet",
+      "manage_categories_desc": "Ürün kategorilerini organize et",
+      "upload_media": "Medya Yükle",
+      "upload_media_desc": "Resim ve dosya ekle",
+      "view_inquiries": "Sorguları Görüntüle",
+      "view_inquiries_desc": "İletişim mesajlarını kontrol et"
+    },
+    "recent_activity": {
+      "title": "Son Aktiviteler",
+      "view_all": "Tümünü Görüntüle",
+      "actions": {
+        "added": "ekledi",
+        "updated": "güncelledi",
+        "received": "alındı",
+        "uploaded": "yükledi"
+      }
+    },
+    "system_status": {
+      "title": "Sistem Durumu",
+      "website_status": "Web Sitesi Durumu",
+      "database": "Veritabanı",
+      "storage": "Depolama",
+      "all_operational": "Tüm sistemler çalışıyor",
+      "connected_healthy": "Bağlı ve sağlıklı",
+      "capacity_used": "%75 kapasite kullanımda"
+    }
+  },
+  "products": {
+    "title": "Ürün Yönetimi",
+    "subtitle": "Ürün katalogunuzu yönetin",
+    "search_placeholder": "Ürün ara...",
+    "filters": {
+      "all_categories": "Tüm Kategoriler",
+      "all_status": "Tüm Durumlar",
+      "active": "Aktif",
+      "inactive": "Pasif",
+      "featured": "Öne Çıkan"
+    },
+    "table": {
+      "image": "Resim",
+      "name": "İsim",
+      "category": "Kategori",
+      "status": "Durum",
+      "featured": "Öne Çıkan",
+      "actions": "İşlemler",
+      "no_products": "Ürün bulunamadı"
+    },
+    "form": {
+      "add_title": "Yeni Ürün Ekle",
+      "edit_title": "Ürünü Düzenle",
+      "basic_info": "Temel Bilgiler",
+      "product_name": "Ürün Adı",
+      "product_name_placeholder": "örn., Mermer Elegance Serisi",
+      "url_slug": "URL Kısa Adı",
+      "url_slug_placeholder": "mermer-elegance-serisi",
+      "url_slug_help": "Ürün URL'sinde kullanılır",
+      "category": "Kategori",
+      "select_category": "Bir kategori seçin",
+      "description": "Açıklama",
+      "description_placeholder": "Ürün özelliklerini, faydalarını ve uygulamalarını açıklayın...",
+      "specifications": "Teknik Özellikler",
+      "dimensions": "Boyutlar",
+      "dimensions_placeholder": "örn., 3000mm x 1400mm x 20mm",
+      "weight": "Ağırlık",
+      "weight_placeholder": "örn., 45 kg/m²",
+      "material": "Malzeme",
+      "material_placeholder": "örn., Kuvars Kompozit",
+      "finish": "Yüzey",
+      "finish_placeholder": "örn., Cilalı",
+      "thickness": "Kalınlık",
+      "thickness_placeholder": "örn., 20mm",
+      "colors": "Mevcut Renkler",
+      "add_color": "Renk ekle",
+      "tags": "Etiketler",
+      "add_tag": "Etiket ekle",
+      "seo": "SEO Ayarları",
+      "meta_title": "Meta Başlık",
+      "meta_title_placeholder": "Arama motorları için özel başlık",
+      "meta_description": "Meta Açıklama",
+      "meta_description_placeholder": "Arama motorları için meta açıklama",
+      "settings": "Ayarlar",
+      "featured_product": "Öne Çıkan Ürün",
+      "active_product": "Aktif Ürün",
+      "product_guidelines": "Ürün Yönergeleri",
+      "guidelines": [
+        "Müşterilerin anlayacağı açık, tanımlayıcı isimler kullanın",
+        "Detaylı özellikler ve boyutlar ekleyin",
+        "Farklı açıları gösteren yüksek kaliteli resimler ekleyin",
+        "Öne çıkan ürünler ana sayfada görünür",
+        "Pasif ürünler web sitesinde görünmez"
+      ]
+    },
+    "actions": {
+      "view_details": "Detayları Görüntüle",
+      "edit_product": "Ürünü Düzenle",
+      "delete_product": "Ürünü Sil",
+      "toggle_status": "Durumu Değiştir",
+      "toggle_featured": "Öne Çıkarmayı Değiştir"
+    },
+    "delete": {
+      "confirm_title": "Ürünü Sil",
+      "confirm_message": "\"{{name}}\" ürününü silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+      "deleting": "Siliniyor..."
+    }
+  },
+  "categories": {
+    "title": "Kategori Yönetimi",
+    "subtitle": "Ürün kategorilerinizi organize edin",
+    "search_placeholder": "Kategori ara...",
+    "filters": {
+      "all_status": "Tüm Durumlar",
+      "active": "Aktif",
+      "inactive": "Pasif"
+    },
+    "table": {
+      "image": "Resim",
+      "name": "İsim",
+      "description": "Açıklama",
+      "products": "Ürünler",
+      "status": "Durum",
+      "sort_order": "Sıralama",
+      "actions": "İşlemler",
+      "no_categories": "Kategori bulunamadı",
+      "product_count": "{{count}} ürün"
+    },
+    "form": {
+      "add_title": "Yeni Kategori Ekle",
+      "edit_title": "Kategoriyi Düzenle",
+      "category_name": "Kategori Adı",
+      "category_name_placeholder": "örn., Mutfak Tezgahları",
+      "url_slug": "URL Kısa Adı",
+      "url_slug_placeholder": "mutfak-tezgahlari",
+      "url_slug_help": "Kategori URL'sinde kullanılır",
+      "description": "Açıklama",
+      "description_placeholder": "Bu kategori hakkında kısa açıklama...",
+      "category_image": "Kategori Resmi",
+      "upload_image": "Resim yükle",
+      "replace_image": "Resmi Değiştir",
+      "remove_image": "Resmi Kaldır",
+      "image_guidelines": "5MB'a kadar PNG, JPG, WebP",
+      "settings": "Ayarlar",
+      "sort_order": "Sıralama",
+      "sort_order_placeholder": "0",
+      "sort_order_help": "Küçük sayılar önce görünür",
+      "active_category": "Aktif Kategori",
+      "category_guidelines": "Kategori Yönergeleri",
+      "guidelines": [
+        "Müşterilerin anlayacağı açık, tanımlayıcı isimler kullanın",
+        "Açıklamaları kısa ama bilgilendirici tutun",
+        "Resimler yüksek kaliteli ve kategoriyi temsil edici olmalı",
+        "Pasif kategoriler web sitesinde görünmez"
+      ]
+    },
+    "actions": {
+      "view_products": "Ürünleri Görüntüle",
+      "edit_category": "Kategoriyi Düzenle",
+      "delete_category": "Kategoriyi Sil",
+      "toggle_status": "Durumu Değiştir"
+    },
+    "delete": {
+      "confirm_title": "Kategoriyi Sil",
+      "confirm_message": "\"{{name}}\" kategorisini silmek istediğinizden emin misiniz? Bu, kategorideki ürünleri silmez.",
+      "deleting": "Siliniyor..."
+    }
+  },
+  "media": {
+    "title": "Medya Kütüphanesi",
+    "subtitle": "Resim ve dosyaları yönetin",
+    "search_placeholder": "Dosya ara...",
+    "filters": {
+      "all_types": "Tüm Türler",
+      "images": "Resimler",
+      "documents": "Belgeler",
+      "videos": "Videolar"
+    },
+    "view_modes": {
+      "grid": "Izgara Görünümü",
+      "list": "Liste Görünümü"
+    },
+    "upload": {
+      "title": "Dosya Yükle",
+      "drag_drop": "Dosyaları buraya sürükle bırak",
+      "or": "veya",
+      "click_browse": "göz atmak için tıkla",
+      "max_files": "Maksimum {{count}} dosya",
+      "accepted_formats": "Kabul edilen formatlar: {{formats}}",
+      "uploading": "Yükleniyor..."
+    },
+    "file_info": {
+      "filename": "Dosya Adı",
+      "size": "Boyut",
+      "type": "Tür",
+      "dimensions": "Boyutlar",
+      "uploaded": "Yüklenme",
+      "alt_text": "Alt Metin",
+      "alt_text_placeholder": "Erişilebilirlik için bu resmi açıklayın"
+    },
+    "actions": {
+      "select_files": "Dosyaları Seç",
+      "edit_file": "Dosyayı Düzenle",
+      "delete_file": "Dosyayı Sil",
+      "download_file": "Dosyayı İndir",
+      "copy_url": "URL'yi Kopyala"
+    },
+    "bulk_actions": {
+      "title": "Toplu İşlemler",
+      "delete_selected": "Seçilenleri Sil",
+      "files_selected": "{{count}} dosya seçildi"
+    }
+  },
+  "contacts": {
+    "title": "İletişim Yönetimi",
+    "subtitle": "Müşteri sorgularını yönetin",
+    "search_placeholder": "İletişim ara...",
+    "filters": {
+      "all_status": "Tüm Durumlar",
+      "new": "Yeni",
+      "in_progress": "İşlemde",
+      "resolved": "Çözüldü",
+      "all_priority": "Tüm Öncelikler",
+      "low": "Düşük",
+      "medium": "Orta",
+      "high": "Yüksek",
+      "urgent": "Acil"
+    },
+    "stats": {
+      "total_contacts": "Toplam İletişim",
+      "new_today": "Bugün Yeni",
+      "in_progress": "İşlemde",
+      "avg_response": "Ort. Yanıt Süresi"
+    },
+    "table": {
+      "name": "İsim",
+      "email": "E-posta",
+      "subject": "Konu",
+      "status": "Durum",
+      "priority": "Öncelik",
+      "date": "Tarih",
+      "actions": "İşlemler",
+      "no_contacts": "İletişim bulunamadı"
+    },
+    "contact_info": {
+      "contact_details": "İletişim Detayları",
+      "phone": "Telefon",
+      "company": "Şirket",
+      "message": "Mesaj",
+      "internal_notes": "İç Notlar",
+      "add_note": "Bu iletişim hakkında iç not ekle...",
+      "activity_log": "Aktivite Günlüğü",
+      "reply": "Yanıtla",
+      "reply_placeholder": "Yanıtınızı yazın...",
+      "send_reply": "Yanıt Gönder"
+    },
+    "actions": {
+      "view_details": "Detayları Görüntüle",
+      "change_status": "Durumu Değiştir",
+      "set_priority": "Öncelik Belirle",
+      "delete_contact": "İletişimi Sil",
+      "mark_resolved": "Çözüldü Olarak İşaretle"
+    },
+    "bulk_actions": {
+      "title": "Toplu İşlemler",
+      "change_status": "Durumu Değiştir",
+      "set_priority": "Öncelik Belirle",
+      "delete_selected": "Seçilenleri Sil",
+      "contacts_selected": "{{count}} iletişim seçildi"
+    }
+  },
+  "header": {
+    "profile_settings": "Profil Ayarları",
+    "view_website": "Web Sitesini Görüntüle",
+    "notifications": "Bildirimler"
+  },
+  "sidebar": {
+    "dashboard": "Kontrol Paneli",
+    "products": "Ürünler",
+    "categories": "Kategoriler",
+    "media": "Medya Kütüphanesi",
+    "contacts": "İletişim",
+    "users": "Kullanıcılar",
+    "analytics": "Analitik",
+    "settings": "Ayarlar"
+  }
+}

@@ -1,0 +1,292 @@
+{
+  "hero": {
+    "slides": {
+      "slide1": {
+        "title": "Premium Yapay Taş",
+        "subtitle": "Mükemmellik İçin İşlendi",
+        "description": "Premium yapay taş çözümlerimizle alanlarınızı dönüştürün. Dayanıklı, şık ve ömür boyu sürecek şekilde tasarlandı.",
+        "cta_primary": "Ürünleri Keşfet",
+        "cta_secondary": "Fiyat Al"
+      },
+      "slide2": {
+        "title": "Özel Tasarım Çözümleri",
+        "subtitle": "Vizyonunuza Özel",
+        "description": "Özel yapay taş tasarımlarımızla eşsiz mimari öğeler yaratın. Konseptten montaja kadar.",
+        "cta_primary": "Hizmetlerimiz",
+        "cta_secondary": "Danışmanlık Talep Et"
+      },
+      "slide3": {
+        "title": "Profesyonel Montaj",
+        "subtitle": "Uzman İşçilik",
+        "description": "Sertifikalı profesyonellerimiz her detaya dikkat ederek mükemmel montaj sağlar. Kalite garantili.",
+        "cta_primary": "Hizmetlerimiz",
+        "cta_secondary": "Danışmanlık Talep Et"
+      }
+    }
+  },
+  "about": {
+    "title": "ArtificialStone Hakkında",
+    "subtitle": "İnovasyon ve Kalite ile Sektöre Öncülük Ediyoruz",
+    "description": "Yapay taş üretiminde 15 yılı aşkın deneyimimizle, yüksek kaliteli mühendislik taş çözümlerinin önde gelen sağlayıcısı olarak kendimizi kanıtladık. İnovasyon, sürdürülebilirlik ve müşteri memnuniyetine olan bağlılığımız yaptığımız her şeyi yönlendirir.",
+    "stats": [
+      {
+        "number": "15+",
+        "label": "Yıl Deneyim"
+      },
+      {
+        "number": "500+",
+        "label": "Tamamlanan Proje"
+      },
+      {
+        "number": "50+",
+        "label": "Ürün Çeşidi"
+      },
+      {
+        "number": "98%",
+        "label": "Müşteri Memnuniyeti"
+      }
+    ],
+    "features": [
+      {
+        "title": "Premium Kalite",
+        "description": "Her ürün olağanüstü dayanıklılık ve yüzey kalitesi sağlamak için sıkı kalite kontrolünden geçer."
+      },
+      {
+        "title": "Özel Çözümler",
+        "description": "Özel proje gereksinimlerinize ve vizyonunuza göre özel tasarımlar ve boyutlar."
+      },
+      {
+        "title": "Uzman Montaj",
+        "description": "Yapay taş uygulamalarında yıllarca deneyime sahip profesyonel montaj ekipleri."
+      },
+      {
+        "title": "Sürdürülebilir Üretim",
+        "description": "Mümkün olduğunda geri dönüştürülmüş malzemeler kullanarak çevre bilinçli üretim süreçleri."
+      }
+    ],
+    "cta": "Hakkımızda Daha Fazla Bilgi",
+    "tagline": "2008'den Beri Mükemmellik Yaratıyoruz",
+    "values": {
+      "innovation": {
+        "title": "Öncelik İnovasyonda",
+        "description": "Üstün ürünler sunmak için teknolojimizi ve tekniklerimizi sürekli geliştiriyoruz."
+      },
+      "sustainability": {
+        "title": "Sürdürülebilir Uygulamalar",
+        "description": "Çevreye duyarlı üretim ve sürdürülebilir tedarik konusunda kararlı bir duruş."
+      },
+      "customer_focus": {
+        "title": "Müşteri Odaklılık",
+        "description": "Müşterilerimizin beklentilerini anlamaya ve her adımda aşmaya adanmışız."
+      }
+    },
+    "certification": {
+      "title": "ISO 9001",
+      "subtitle": "Sertifikalı Kalite"
+    }
+  },
+  "products": {
+    "title": "Ürünlerimiz",
+    "subtitle": "Premium Yapay Taş Çözümlerini Keşfedin",
+    "search_placeholder": "Ürün ara...",
+    "filters": {
+      "all_categories": "Tüm Kategoriler",
+      "show_featured": "Sadece Öne Çıkanlar"
+    },
+    "categories": [
+      "Mutfak Tezgahları",
+      "Banyo Tezgahları",
+      "Duvar Kaplaması",
+      "Zemin Döşemesi",
+      "Özellik Duvarları",
+      "Dış Mekan Döşemesi"
+    ],
+    "view_details": "Detayları Görüntüle",
+    "specifications": "Teknik Özellikler",
+    "dimensions": "Boyutlar",
+    "material": "Malzeme",
+    "finish": "Yüzey",
+    "colors": "Mevcut Renkler",
+    "features": "Temel Özellikler",
+    "applications": "Uygulamalar",
+    "close": "Kapat",
+    "no_products": "Aramanızla eşleşen ürün bulunamadı."
+  },
+  "services": {
+    "title": "Hizmetlerimiz",
+    "subtitle": "Tasarımdan Montaja Komple Çözümler",
+    "services": {
+      "design": {
+        "title": "Özel Tasarım Hizmetleri",
+        "description": "Kapsamlı tasarım danışmanlığımız ve özel taş çözümlerimizle vizyonunuzu gerçeğe dönüştürün.",
+        "features": [
+          "3D Modelleme ve Görselleştirme",
+          "Malzeme Seçimi Rehberliği",
+          "Renk Eşleştirme Hizmetleri",
+          "Teknik Çizimler",
+          "Tasarım Optimizasyonu"
+        ],
+        "process_title": "Tasarım Süreci",
+        "process_steps": [
+          "İlk danışmanlık ve gereksinim analizi",
+          "3D modelleme ve tasarım görselleştirme",
+          "Malzeme seçimi ve renk eşleştirme",
+          "Teknik özellik geliştirme",
+          "Final tasarım onayı ve dokümantasyon"
+        ]
+      },
+      "installation": {
+        "title": "Profesyonel Montaj",
+        "description": "Yapay taş yüzeylerinizin mükemmel uyum, bitiriş ve uzun ömürlü performansını sağlayan uzman montaj hizmetleri.",
+        "features": [
+          "Sertifikalı Montaj Ekipleri",
+          "Hassas Kesim ve Yerleştirme",
+          "Yüzey Hazırlığı",
+          "Kalite Kontrol İncelemesi",
+          "Montaj Sonrası Temizlik"
+        ],
+        "process_title": "Montaj Süreci",
+        "process_steps": [
+          "Saha araştırması ve ölçü doğrulaması",
+          "Yüzey hazırlığı ve alt yapı kontrolü",
+          "Hassas kesim ve kenar bitirme",
+          "Profesyonel montaj ve hizalama",
+          "Kalite incelemesi ve müşteri gezintisi"
+        ]
+      },
+      "maintenance": {
+        "title": "Bakım ve Özen",
+        "description": "Yapay taş yüzeylerinizin yıllarca bozulmadan kalması için kapsamlı bakım hizmetleri ve rehberlik.",
+        "features": [
+          "Bakım Danışmanlığı",
+          "Profesyonel Temizlik Hizmetleri",
+          "Onarım ve Restorasyon",
+          "Bakım Ürünü Önerileri",
+          "Garanti Desteği"
+        ],
+        "process_title": "Bakım Süreci",
+        "process_steps": [
+          "Yüzey durumu değerlendirmesi",
+          "Temizlik ve bakım planı geliştirme",
+          "Profesyonel temizlik ve işlem",
+          "Gerekirse onarım ve restorasyon",
+          "Devam eden bakım rehberliği"
+        ]
+      },
+      "consultation": {
+        "title": "Uzman Danışmanlık",
+        "description": "Yapay taş projeleriniz hakkında bilinçli kararlar almanıza yardımcı olacak profesyonel rehberlik ve teknik uzmanlık.",
+        "features": [
+          "Teknik Özellikler İncelemesi",
+          "Uygulama Uygunluğu Analizi",
+          "Bütçe Planlama ve Optimizasyon",
+          "Zaman Çizelgesi Geliştirme",
+          "Maliyet-Fayda Analizi",
+          "Proje Zaman Çizelgesi Planlama"
+        ],
+        "process_title": "Danışmanlık Süreci",
+        "process_steps": [
+          "Proje gereksinimleri değerlendirmesi",
+          "Teknik fizibilite analizi",
+          "Malzeme ve çözüm önerileri",
+          "Maliyet tahmini ve zaman planlaması",
+          "Uygulama yol haritası geliştirme"
+        ]
+      }
+    },
+    "get_consultation": "Ücretsiz Danışmanlık Al",
+    "scroll_to_contact": "Bize Ulaşın"
+  },
+  "contact": {
+    "title": "İletişime Geçin",
+    "subtitle": "Projenizi başlatmaya hazır mısınız? Danışmanlık için bizimle iletişime geçin.",
+    "form": {
+      "name": "Ad Soyad",
+      "name_placeholder": "Ad soyadınızı girin",
+      "email": "E-posta Adresi",
+      "email_placeholder": "E-posta adresinizi girin",
+      "phone": "Telefon Numarası",
+      "phone_placeholder": "Telefon numaranızı girin",
+      "company": "Şirket (Opsiyonel)",
+      "company_placeholder": "Şirket adınızı girin",
+      "subject": "Konu",
+      "subject_placeholder": "Bu hangi konuda?",
+      "message": "Mesaj",
+      "message_placeholder": "Proje gereksinimlerinizi bize anlatın...",
+      "send_message": "Mesaj Gönder",
+      "sending": "Gönderiliyor..."
+    },
+    "info": {
+      "title": "İletişim Bilgileri",
+      "address": {
+        "title": "Adres",
+        "value": "Taş Caddesi 123, Sanayi Bölgesi, İstanbul, Türkiye"
+      },
+      "phone": {
+        "title": "Telefon",
+        "value": "+90 212 555 0123"
+      },
+      "email": {
+        "title": "E-posta",
+        "value": "info@artificialstone.com"
+      },
+      "hours": {
+        "title": "Çalışma Saatleri",
+        "weekdays": "Pazartesi - Cuma: 08:00 - 18:00",
+        "weekend": "Cumartesi: 09:00 - 16:00",
+        "sunday": "Pazar: Kapalı"
+      }
+    },
+    "success": {
+      "title": "Mesaj Gönderildi!",
+      "description": "Bizimle iletişime geçtiğiniz için teşekkürler. 24 saat içinde size geri dönüş yapacağız."
+    },
+    "error": {
+      "title": "Hata",
+      "description": "Mesajınız gönderilirken bir hata oluştu. Lütfen tekrar deneyin."
+    }
+  },
+  "footer": {
+    "company": {
+      "title": "ArtificialStone",
+      "description": "15 yılı aşkın sektör deneyimi ile premium yapay taş çözümlerinin önde gelen üreticisi."
+    },
+    "links": {
+      "quick_links": "Hızlı Bağlantılar",
+      "products": "Ürünler",
+      "services": "Hizmetler",
+      "about": "Hakkımızda",
+      "contact": "İletişim",
+      "gallery": "Galeri"
+    },
+    "services_footer": {
+      "title": "Hizmetler",
+      "design": "Özel Tasarım",
+      "installation": "Montaj",
+      "maintenance": "Bakım",
+      "consultation": "Danışmanlık",
+      "support": "Destek"
+    },
+    "contact_footer": {
+      "title": "İletişim Bilgisi",
+      "address": "Taş Caddesi 123, İstanbul",
+      "phone": "+90 212 555 0123",
+      "email": "info@artificialstone.com"
+    },
+    "social": {
+      "title": "Bizi Takip Edin",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn"
+    },
+    "bottom": {
+      "copyright": "© {{year}} ArtificialStone. Tüm hakları saklıdır.",
+      "privacy": "Gizlilik Politikası",
+      "terms": "Hizmet Şartları",
+      "cookies": "Çerez Politikası"
+    },
+    "navigation": {
+      "home": "Ana Sayfa"
+    }
+  }
+}

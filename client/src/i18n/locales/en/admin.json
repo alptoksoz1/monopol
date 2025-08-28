@@ -1,0 +1,318 @@
+{
+  "auth": {
+    "login": "Login",
+    "logout": "Logout",
+    "email": "Email Address",
+    "password": "Password",
+    "remember_me": "Remember me",
+    "forgot_password": "Forgot password?",
+    "signing_in": "Signing In...",
+    "sign_in": "Sign In",
+    "welcome_back": "Welcome Back",
+    "admin_portal": "Admin Portal",
+    "sign_in_subtitle": "Sign in to access the admin dashboard",
+    "demo_credentials": "Demo Credentials",
+    "admin_role": "Admin",
+    "editor_role": "Editor"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Overview of your artificial stone business",
+    "stats": {
+      "total_products": "Total Products",
+      "categories": "Categories",
+      "media_files": "Media Files",
+      "new_inquiries": "New Inquiries",
+      "this_month": "+{{count}} this month",
+      "this_week": "+{{count}} this week",
+      "today": "+{{count}} today",
+      "no_change": "No change"
+    },
+    "quick_actions": {
+      "title": "Quick Actions",
+      "add_product": "Add New Product",
+      "add_product_desc": "Create a new product listing",
+      "manage_categories": "Manage Categories",
+      "manage_categories_desc": "Organize product categories",
+      "upload_media": "Upload Media",
+      "upload_media_desc": "Add images and files",
+      "view_inquiries": "View Inquiries",
+      "view_inquiries_desc": "Check contact messages"
+    },
+    "recent_activity": {
+      "title": "Recent Activity",
+      "view_all": "View All",
+      "actions": {
+        "added": "added",
+        "updated": "updated",
+        "received": "received",
+        "uploaded": "uploaded"
+      }
+    },
+    "system_status": {
+      "title": "System Status",
+      "website_status": "Website Status",
+      "database": "Database",
+      "storage": "Storage",
+      "all_operational": "All systems operational",
+      "connected_healthy": "Connected and healthy",
+      "capacity_used": "75% capacity used"
+    }
+  },
+  "products": {
+    "title": "Product Management",
+    "subtitle": "Manage your product catalog",
+    "search_placeholder": "Search products...",
+    "filters": {
+      "all_categories": "All Categories",
+      "all_status": "All Status",
+      "active": "Active",
+      "inactive": "Inactive",
+      "featured": "Featured"
+    },
+    "table": {
+      "image": "Image",
+      "name": "Name",
+      "category": "Category",
+      "status": "Status",
+      "featured": "Featured",
+      "actions": "Actions",
+      "no_products": "No products found"
+    },
+    "form": {
+      "add_title": "Add New Product",
+      "edit_title": "Edit Product",
+      "basic_info": "Basic Information",
+      "product_name": "Product Name",
+      "product_name_placeholder": "e.g., Marble Elegance Series",
+      "url_slug": "URL Slug",
+      "url_slug_placeholder": "marble-elegance-series",
+      "url_slug_help": "Used in the product URL",
+      "category": "Category",
+      "select_category": "Select a category",
+      "description": "Description",
+      "description_placeholder": "Describe the product features, benefits, and applications...",
+      "specifications": "Specifications",
+      "dimensions": "Dimensions",
+      "dimensions_placeholder": "e.g., 3000mm x 1400mm x 20mm",
+      "weight": "Weight",
+      "weight_placeholder": "e.g., 45 kg/m²",
+      "material": "Material",
+      "material_placeholder": "e.g., Quartz Composite",
+      "finish": "Finish",
+      "finish_placeholder": "e.g., Polished",
+      "thickness": "Thickness",
+      "thickness_placeholder": "e.g., 20mm",
+      "colors": "Available Colors",
+      "add_color": "Add a color",
+      "tags": "Tags",
+      "add_tag": "Add a tag",
+      "seo": "SEO Settings",
+      "meta_title": "Meta Title",
+      "meta_title_placeholder": "Custom title for search engines",
+      "meta_description": "Meta Description",
+      "meta_description_placeholder": "Meta description for search engines",
+      "settings": "Settings",
+      "featured_product": "Featured Product",
+      "active_product": "Active Product",
+      "product_guidelines": "Product Guidelines",
+      "guidelines": [
+        "Use clear, descriptive names that customers will understand",
+        "Include detailed specifications and dimensions",
+        "Add high-quality images showing different angles",
+        "Featured products appear on the homepage",
+        "Inactive products won't appear on the website"
+      ]
+    },
+    "actions": {
+      "view_details": "View Details",
+      "edit_product": "Edit Product",
+      "delete_product": "Delete Product",
+      "toggle_status": "Toggle Status",
+      "toggle_featured": "Toggle Featured"
+    },
+    "delete": {
+      "confirm_title": "Delete Product",
+      "confirm_message": "Are you sure you want to delete \"{{name}}\"? This action cannot be undone.",
+      "deleting": "Deleting..."
+    }
+  },
+  "categories": {
+    "title": "Category Management",
+    "subtitle": "Organize your product categories",
+    "search_placeholder": "Search categories...",
+    "filters": {
+      "all_status": "All Status",
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "table": {
+      "image": "Image",
+      "name": "Name",
+      "description": "Description",
+      "products": "Products",
+      "status": "Status",
+      "sort_order": "Sort Order",
+      "actions": "Actions",
+      "no_categories": "No categories found",
+      "product_count": "{{count}} products"
+    },
+    "form": {
+      "add_title": "Add New Category",
+      "edit_title": "Edit Category",
+      "category_name": "Category Name",
+      "category_name_placeholder": "e.g., Kitchen Countertops",
+      "url_slug": "URL Slug",
+      "url_slug_placeholder": "kitchen-countertops",
+      "url_slug_help": "Used in the category URL",
+      "description": "Description",
+      "description_placeholder": "Brief description of this category...",
+      "category_image": "Category Image",
+      "upload_image": "Upload an image",
+      "replace_image": "Replace Image",
+      "remove_image": "Remove Image",
+      "image_guidelines": "PNG, JPG, WebP up to 5MB",
+      "settings": "Settings",
+      "sort_order": "Sort Order",
+      "sort_order_placeholder": "0",
+      "sort_order_help": "Lower numbers appear first",
+      "active_category": "Active Category",
+      "category_guidelines": "Category Guidelines",
+      "guidelines": [
+        "Use clear, descriptive names that customers will understand",
+        "Keep descriptions concise but informative",
+        "Images should be high-quality and representative of the category",
+        "Inactive categories won't appear on the website"
+      ]
+    },
+    "actions": {
+      "view_products": "View Products",
+      "edit_category": "Edit Category",
+      "delete_category": "Delete Category",
+      "toggle_status": "Toggle Status"
+    },
+    "delete": {
+      "confirm_title": "Delete Category",
+      "confirm_message": "Are you sure you want to delete \"{{name}}\"? This will not delete the products in this category.",
+      "deleting": "Deleting..."
+    }
+  },
+  "media": {
+    "title": "Media Library",
+    "subtitle": "Manage images and files",
+    "search_placeholder": "Search files...",
+    "filters": {
+      "all_types": "All Types",
+      "images": "Images",
+      "documents": "Documents",
+      "videos": "Videos"
+    },
+    "view_modes": {
+      "grid": "Grid View",
+      "list": "List View"
+    },
+    "upload": {
+      "title": "Upload Files",
+      "drag_drop": "Drag and drop files here",
+      "or": "or",
+      "click_browse": "click to browse",
+      "max_files": "Maximum {{count}} files",
+      "accepted_formats": "Accepted formats: {{formats}}",
+      "uploading": "Uploading..."
+    },
+    "file_info": {
+      "filename": "Filename",
+      "size": "Size",
+      "type": "Type",
+      "dimensions": "Dimensions",
+      "uploaded": "Uploaded",
+      "alt_text": "Alt Text",
+      "alt_text_placeholder": "Describe this image for accessibility"
+    },
+    "actions": {
+      "select_files": "Select Files",
+      "edit_file": "Edit File",
+      "delete_file": "Delete File",
+      "download_file": "Download File",
+      "copy_url": "Copy URL"
+    },
+    "bulk_actions": {
+      "title": "Bulk Actions",
+      "delete_selected": "Delete Selected",
+      "files_selected": "{{count}} files selected"
+    }
+  },
+  "contacts": {
+    "title": "Contact Management",
+    "subtitle": "Handle customer inquiries",
+    "search_placeholder": "Search contacts...",
+    "filters": {
+      "all_status": "All Status",
+      "new": "New",
+      "in_progress": "In Progress",
+      "resolved": "Resolved",
+      "all_priority": "All Priority",
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High",
+      "urgent": "Urgent"
+    },
+    "stats": {
+      "total_contacts": "Total Contacts",
+      "new_today": "New Today",
+      "in_progress": "In Progress",
+      "avg_response": "Avg Response Time"
+    },
+    "table": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "status": "Status",
+      "priority": "Priority",
+      "date": "Date",
+      "actions": "Actions",
+      "no_contacts": "No contacts found"
+    },
+    "contact_info": {
+      "contact_details": "Contact Details",
+      "phone": "Phone",
+      "company": "Company",
+      "message": "Message",
+      "internal_notes": "Internal Notes",
+      "add_note": "Add internal notes about this contact...",
+      "activity_log": "Activity Log",
+      "reply": "Reply",
+      "reply_placeholder": "Type your reply...",
+      "send_reply": "Send Reply"
+    },
+    "actions": {
+      "view_details": "View Details",
+      "change_status": "Change Status",
+      "set_priority": "Set Priority",
+      "delete_contact": "Delete Contact",
+      "mark_resolved": "Mark as Resolved"
+    },
+    "bulk_actions": {
+      "title": "Bulk Actions",
+      "change_status": "Change Status",
+      "set_priority": "Set Priority",
+      "delete_selected": "Delete Selected",
+      "contacts_selected": "{{count}} contacts selected"
+    }
+  },
+  "header": {
+    "profile_settings": "Profile Settings",
+    "view_website": "View Website",
+    "notifications": "Notifications"
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "products": "Products",
+    "categories": "Categories",
+    "media": "Media Library",
+    "contacts": "Contacts",
+    "users": "Users",
+    "analytics": "Analytics",
+    "settings": "Settings"
+  }
+}

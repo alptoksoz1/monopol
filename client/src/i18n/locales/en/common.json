@@ -1,0 +1,84 @@
+{
+  "languages": {
+    "en": "English",
+    "tr": "Türkçe"
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "products": "Products",
+    "services": "Services",
+    "contact": "Contact",
+    "admin": "Admin"
+  },
+  "actions": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "create": "Create",
+    "update": "Update",
+    "search": "Search",
+    "filter": "Filter",
+    "view": "View",
+    "close": "Close",
+    "submit": "Submit",
+    "reset": "Reset",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "upload": "Upload",
+    "download": "Download",
+    "remove": "Remove",
+    "select": "Select",
+    "confirm": "Confirm"
+  },
+  "status": {
+    "active": "Active",
+    "inactive": "Inactive",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "published": "Published",
+    "draft": "Draft",
+    "pending": "Pending",
+    "approved": "Approved",
+    "rejected": "Rejected",
+    "completed": "Completed",
+    "processing": "Processing",
+    "loading": "Loading...",
+    "success": "Success",
+    "error": "Error",
+    "warning": "Warning",
+    "info": "Info"
+  },
+  "forms": {
+    "required": "This field is required",
+    "invalid_email": "Please enter a valid email address",
+    "password_min_length": "Password must be at least 6 characters",
+    "passwords_not_match": "Passwords do not match",
+    "invalid_url": "Please enter a valid URL",
+    "invalid_phone": "Please enter a valid phone number",
+    "file_too_large": "File size is too large",
+    "unsupported_file_type": "Unsupported file type"
+  },
+  "time": {
+    "just_now": "Just now",
+    "minutes_ago": "{{count}} minutes ago",
+    "hours_ago": "{{count}} hours ago",
+    "days_ago": "{{count}} days ago",
+    "weeks_ago": "{{count}} weeks ago",
+    "months_ago": "{{count}} months ago",
+    "years_ago": "{{count}} years ago"
+  },
+  "pagination": {
+    "page": "Page",
+    "of": "of",
+    "items_per_page": "Items per page",
+    "showing": "Showing",
+    "to": "to",
+    "items": "items",
+    "first": "First",
+    "last": "Last"
+  }
+}

@@ -5,6 +5,7 @@ import { ProtectedRoute } from './components/auth';
 import Landing from './pages/Landing';
 import Login from './pages/Login';
 import AdminDashboard from './pages/AdminDashboard';
+import './i18n';
 
 function App() {
   return (

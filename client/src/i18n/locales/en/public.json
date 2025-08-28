@@ -1,0 +1,292 @@
+{
+  "hero": {
+    "slides": {
+      "slide1": {
+        "title": "Premium Artificial Stone",
+        "subtitle": "Crafted for Perfection",
+        "description": "Transform your spaces with our premium artificial stone solutions. Durable, elegant, and designed to last a lifetime.",
+        "cta_primary": "Explore Products",
+        "cta_secondary": "Get Quote"
+      },
+      "slide2": {
+        "title": "Custom Design Solutions",
+        "subtitle": "Tailored to Your Vision",
+        "description": "Create unique architectural elements with our custom artificial stone designs. From concept to installation.",
+        "cta_primary": "Our Services",
+        "cta_secondary": "Schedule Consultation"
+      },
+      "slide3": {
+        "title": "Professional Installation",
+        "subtitle": "Expert Craftsmanship",
+        "description": "Our certified professionals ensure perfect installation with attention to every detail. Quality guaranteed.",
+        "cta_primary": "Our Services",
+        "cta_secondary": "Schedule Consultation"
+      }
+    }
+  },
+  "about": {
+    "title": "About ArtificialStone",
+    "subtitle": "Leading the Industry with Innovation and Quality",
+    "description": "With over 15 years of experience in artificial stone manufacturing, we've established ourselves as the premier provider of high-quality engineered stone solutions. Our commitment to innovation, sustainability, and customer satisfaction drives everything we do.",
+    "stats": [
+      {
+        "number": "15+",
+        "label": "Years Experience"
+      },
+      {
+        "number": "500+",
+        "label": "Projects Completed"
+      },
+      {
+        "number": "50+",
+        "label": "Product Varieties"
+      },
+      {
+        "number": "98%",
+        "label": "Client Satisfaction"
+      }
+    ],
+    "features": [
+      {
+        "title": "Premium Quality",
+        "description": "Every product undergoes rigorous quality control to ensure exceptional durability and finish."
+      },
+      {
+        "title": "Custom Solutions",
+        "description": "Tailored designs and sizes to meet your specific project requirements and vision."
+      },
+      {
+        "title": "Expert Installation",
+        "description": "Professional installation teams with years of experience in artificial stone applications."
+      },
+      {
+        "title": "Sustainable Production",
+        "description": "Environmentally conscious manufacturing processes using recycled materials where possible."
+      }
+    ],
+    "cta": "Learn More About Us",
+    "tagline": "Crafting Excellence Since 2008",
+    "values": {
+      "innovation": {
+        "title": "Innovation First",
+        "description": "Continuously advancing our technology and techniques to deliver superior products."
+      },
+      "sustainability": {
+        "title": "Sustainable Practices", 
+        "description": "Committed to environmentally responsible manufacturing and sustainable sourcing."
+      },
+      "customer_focus": {
+        "title": "Customer Focus",
+        "description": "Dedicated to understanding and exceeding our customers' expectations at every step."
+      }
+    },
+    "certification": {
+      "title": "ISO 9001",
+      "subtitle": "Certified Quality"
+    }
+  },
+  "products": {
+    "title": "Our Products",
+    "subtitle": "Discover Premium Artificial Stone Solutions",
+    "search_placeholder": "Search products...",
+    "filters": {
+      "all_categories": "All Categories",
+      "show_featured": "Show Featured Only"
+    },
+    "categories": [
+      "Kitchen Countertops",
+      "Bathroom Vanities",
+      "Wall Cladding",
+      "Flooring",
+      "Feature Walls",
+      "Outdoor Paving"
+    ],
+    "view_details": "View Details",
+    "specifications": "Specifications",
+    "dimensions": "Dimensions",
+    "material": "Material",
+    "finish": "Finish",
+    "colors": "Available Colors",
+    "features": "Key Features",
+    "applications": "Applications",
+    "close": "Close",
+    "no_products": "No products found matching your search."
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Complete Solutions from Design to Installation",
+    "services": {
+      "design": {
+        "title": "Custom Design Services",
+        "description": "Transform your vision into reality with our comprehensive design consultation and custom stone solutions.",
+        "features": [
+          "3D Modeling & Visualization",
+          "Material Selection Guidance",
+          "Color Matching Services",
+          "Technical Drawings",
+          "Design Optimization"
+        ],
+        "process_title": "Design Process",
+        "process_steps": [
+          "Initial consultation and requirement analysis",
+          "3D modeling and design visualization",
+          "Material selection and color matching",
+          "Technical specification development",
+          "Final design approval and documentation"
+        ]
+      },
+      "installation": {
+        "title": "Professional Installation",
+        "description": "Expert installation services ensuring perfect fit, finish, and long-lasting performance of your artificial stone surfaces.",
+        "features": [
+          "Certified Installation Teams",
+          "Precision Cutting & Fitting",
+          "Surface Preparation",
+          "Quality Control Inspection",
+          "Post-Installation Cleanup"
+        ],
+        "process_title": "Installation Process",
+        "process_steps": [
+          "Site survey and measurement verification",
+          "Surface preparation and substrate check",
+          "Precision cutting and edge finishing",
+          "Professional installation and alignment",
+          "Quality inspection and customer walkthrough"
+        ]
+      },
+      "maintenance": {
+        "title": "Maintenance & Care",
+        "description": "Comprehensive maintenance services and guidance to keep your artificial stone surfaces looking pristine for years.",
+        "features": [
+          "Maintenance Consultation",
+          "Professional Cleaning Services",
+          "Repair & Restoration",
+          "Care Product Recommendations",
+          "Warranty Support"
+        ],
+        "process_title": "Maintenance Process",
+        "process_steps": [
+          "Surface condition assessment",
+          "Cleaning and maintenance plan development",
+          "Professional cleaning and treatment",
+          "Repair and restoration if needed",
+          "Ongoing maintenance guidance"
+        ]
+      },
+      "consultation": {
+        "title": "Expert Consultation",
+        "description": "Professional guidance and technical expertise to help you make informed decisions about your artificial stone projects.",
+        "features": [
+          "Technical Specifications Review",
+          "Application Suitability Analysis",
+          "Budget Planning & Optimization",
+          "Timeline Development",
+          "Cost-Benefit Analysis",
+          "Project Timeline Planning"
+        ],
+        "process_title": "Consultation Process",
+        "process_steps": [
+          "Project requirements assessment",
+          "Technical feasibility analysis",
+          "Material and solution recommendations",
+          "Cost estimation and timeline planning",
+          "Implementation roadmap development"
+        ]
+      }
+    },
+    "get_consultation": "Get Free Consultation",
+    "scroll_to_contact": "Contact Us"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Ready to start your project? Contact us for a consultation.",
+    "form": {
+      "name": "Full Name",
+      "name_placeholder": "Enter your full name",
+      "email": "Email Address",
+      "email_placeholder": "Enter your email address",
+      "phone": "Phone Number",
+      "phone_placeholder": "Enter your phone number",
+      "company": "Company (Optional)",
+      "company_placeholder": "Enter your company name",
+      "subject": "Subject",
+      "subject_placeholder": "What's this about?",
+      "message": "Message",
+      "message_placeholder": "Tell us about your project requirements...",
+      "send_message": "Send Message",
+      "sending": "Sending..."
+    },
+    "info": {
+      "title": "Contact Information",
+      "address": {
+        "title": "Address",
+        "value": "123 Stone Avenue, Industrial District, Istanbul, Turkey"
+      },
+      "phone": {
+        "title": "Phone",
+        "value": "+90 212 555 0123"
+      },
+      "email": {
+        "title": "Email",
+        "value": "info@artificialstone.com"
+      },
+      "hours": {
+        "title": "Business Hours",
+        "weekdays": "Monday - Friday: 8:00 AM - 6:00 PM",
+        "weekend": "Saturday: 9:00 AM - 4:00 PM",
+        "sunday": "Sunday: Closed"
+      }
+    },
+    "success": {
+      "title": "Message Sent!",
+      "description": "Thank you for contacting us. We'll get back to you within 24 hours."
+    },
+    "error": {
+      "title": "Error",
+      "description": "There was an error sending your message. Please try again."
+    }
+  },
+  "footer": {
+    "company": {
+      "title": "ArtificialStone",
+      "description": "Leading manufacturer of premium artificial stone solutions with over 15 years of industry experience."
+    },
+    "links": {
+      "quick_links": "Quick Links",
+      "products": "Products",
+      "services": "Services", 
+      "about": "About Us",
+      "contact": "Contact",
+      "gallery": "Gallery"
+    },
+    "services_footer": {
+      "title": "Services",
+      "design": "Custom Design",
+      "installation": "Installation",
+      "maintenance": "Maintenance", 
+      "consultation": "Consultation",
+      "support": "Support"
+    },
+    "contact_footer": {
+      "title": "Contact Info",
+      "address": "123 Stone Avenue, Istanbul",
+      "phone": "+90 212 555 0123",
+      "email": "info@artificialstone.com"
+    },
+    "social": {
+      "title": "Follow Us",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn"
+    },
+    "bottom": {
+      "copyright": "© {{year}} ArtificialStone. All rights reserved.",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "cookies": "Cookie Policy"
+    },
+    "navigation": {
+      "home": "Home"
+    }
+  }
+}

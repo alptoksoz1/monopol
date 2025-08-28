@@ -106,3 +106,54 @@ export const getRandomHeroImage = (): string => {
 export const getGalleryImages = (count: number = 12): string[] => {
   return mockGalleryImages.slice(0, count);
 };
+
+// Services section images
+export const mockServiceImages = {
+  'design-consultation': 'https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=500&h=300&fit=crop',
+  'custom-fabrication': 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=500&h=300&fit=crop',
+  'professional-installation': 'https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?w=500&h=300&fit=crop',
+  'maintenance-support': 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=500&h=300&fit=crop',
+};
+
+// About section images
+export const mockAboutImages = {
+  'company-facility': 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=600&h=400&fit=crop',
+  'team-working': 'https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=600&h=400&fit=crop',
+  'showroom': 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&h=400&fit=crop',
+  'quality-control': 'https://images.unsplash.com/photo-1556909043-f42c4e8b5f65?w=600&h=400&fit=crop',
+};
+
+// Additional product images for remaining products
+export const additionalProductImages = {
+  'travertine-natural': 'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=400&h=300&fit=crop',
+  'limestone-collection': 'https://images.unsplash.com/photo-1558618047-85c8c76ca7d13?w=400&h=300&fit=crop',
+  'engineered-quartz': 'https://images.unsplash.com/photo-1556909043-4cc08c18b7c8?w=400&h=300&fit=crop',
+};
+
+// Additional category images
+export const additionalCategoryImages = {
+  'decorative-elements-2': 'https://images.unsplash.com/photo-1556909043-85c8c76ca7d13?w=400&h=250&fit=crop',
+  'outdoor-surfaces-2': 'https://images.unsplash.com/photo-1558618053-eab31c13b34a?w=400&h=250&fit=crop',
+};
+
+// Helper functions
+export const getServiceImage = (serviceSlug: string): string => {
+  return mockServiceImages[serviceSlug as keyof typeof mockServiceImages] || 
+         generateMockImage(500, 300, 'service', serviceSlug);
+};
+
+export const getAboutImage = (imageKey: string): string => {
+  return mockAboutImages[imageKey as keyof typeof mockAboutImages] || 
+         generateMockImage(600, 400, 'about', imageKey);
+};
+
+export const getAdditionalProductImage = (productSlug: string): string => {
+  return additionalProductImages[productSlug as keyof typeof additionalProductImages] || 
+         mockProductImages[productSlug as keyof typeof mockProductImages] || 
+         generateMockImage(400, 300, 'stone', productSlug);
+};
+
+// Fallback image for missing images
+export const getFallbackImage = (width: number = 400, height: number = 300): string => {
+  return `https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=${width}&h=${height}&fit=crop`;
+};

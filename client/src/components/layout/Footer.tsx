@@ -1,7 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 const Footer: React.FC = () => {
+  const { t } = useTranslation('public');
+  
   const companyInfo = {
     name: 'ArtificialStone',
     description: 'Premium artificial stone solutions for modern architecture and interior design.',
@@ -17,18 +20,18 @@ const Footer: React.FC = () => {
   ];
 
   const quickLinks = [
-    { name: 'Home', href: '#hero' },
-    { name: 'Products', href: '#products' },
-    { name: 'About Us', href: '#about' },
-    { name: 'Services', href: '#services' },
-    { name: 'Contact', href: '#contact' }
+    { name: t('navigation.home'), href: '#hero' },
+    { name: t('footer.links.products'), href: '#products' },
+    { name: t('footer.links.about'), href: '#about' },
+    { name: t('footer.links.services'), href: '#services' },
+    { name: t('footer.links.contact'), href: '#contact' }
   ];
 
   const services = [
-    { name: 'Custom Design', href: '#' },
-    { name: 'Installation', href: '#' },
-    { name: 'Maintenance', href: '#' },
-    { name: 'Consultation', href: '#' }
+    { name: t('footer.services_footer.design'), href: '#' },
+    { name: t('footer.services_footer.installation'), href: '#' },
+    { name: t('footer.services_footer.maintenance'), href: '#' },
+    { name: t('footer.services_footer.consultation'), href: '#' }
   ];
 
   const scrollToSection = (href: string) => {
@@ -115,7 +118,7 @@ const Footer: React.FC = () => {
               transition={{ duration: 0.6, delay: 0.1 }}
               viewport={{ once: true }}
             >
-              <h3 className="text-lg font-semibold font-heading mb-6">Quick Links</h3>
+              <h3 className="text-lg font-semibold font-heading mb-6">{t('footer.links.quick_links')}</h3>
               <ul className="space-y-3">
                 {quickLinks.map((link) => (
                   <li key={link.name}>
@@ -137,7 +140,7 @@ const Footer: React.FC = () => {
               transition={{ duration: 0.6, delay: 0.2 }}
               viewport={{ once: true }}
             >
-              <h3 className="text-lg font-semibold font-heading mb-6">Services</h3>
+              <h3 className="text-lg font-semibold font-heading mb-6">{t('footer.services_footer.title')}</h3>
               <ul className="space-y-3">
                 {services.map((service) => (
                   <li key={service.name}>
@@ -169,13 +172,13 @@ const Footer: React.FC = () => {
             
             <div className="flex space-x-6">
               <a href="#" className="text-gray-400 hover:text-accent transition-colors duration-200 text-sm">
-                Privacy Policy
+                {t('footer.bottom.privacy')}
               </a>
               <a href="#" className="text-gray-400 hover:text-accent transition-colors duration-200 text-sm">
-                Terms of Service
+                {t('footer.bottom.terms')}
               </a>
               <a href="#" className="text-gray-400 hover:text-accent transition-colors duration-200 text-sm">
-                Cookie Policy
+                {t('footer.bottom.cookies')}
               </a>
             </div>
           </div>

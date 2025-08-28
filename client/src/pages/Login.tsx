@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { useNavigate, useLocation } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import { useAuth } from '../hooks/useAuth';
 import { Button, Input, Card } from '../components/ui';
 
 const Login: React.FC = () => {
+  const { t } = useTranslation(['admin', 'common']);
   const { login, loading, error, user } = useAuth();
   const navigate = useNavigate();
   const location = useLocation();
@@ -27,13 +29,13 @@ const Login: React.FC = () => {
     const errors: { [key: string]: string } = {};
 
     if (!formData.email.trim()) {
-      errors.email = 'Email is required';
+      errors.email = t('common:forms.required');
     } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
-      errors.email = 'Please enter a valid email address';
+      errors.email = t('common:forms.invalid_email');
     }
 
     if (!formData.password.trim()) {
-      errors.password = 'Password is required';
+      errors.password = t('common:forms.required');
     }
 
     setFormErrors(errors);
@@ -86,7 +88,7 @@ const Login: React.FC = () => {
               <h1 className="text-2xl font-bold text-white font-heading">
                 ArtificialStone
               </h1>
-              <p className="text-accent text-sm">Admin Portal</p>
+              <p className="text-accent text-sm">{t('admin:auth.admin_portal')}</p>
             </div>
           </motion.div>
           
@@ -95,8 +97,8 @@ const Login: React.FC = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
           >
-            <h2 className="text-2xl font-bold text-white mb-2">Welcome Back</h2>
-            <p className="text-white/80">Sign in to access the admin dashboard</p>
+            <h2 className="text-2xl font-bold text-white mb-2">{t('admin:auth.welcome_back')}</h2>
+            <p className="text-white/80">{t('admin:auth.sign_in_subtitle')}</p>
           </motion.div>
         </div>
 
@@ -123,7 +125,7 @@ const Login: React.FC = () => {
 
             <form onSubmit={handleSubmit} className="space-y-6">
               <Input
-                label="Email Address"
+                label={t('admin:auth.email')}
                 type="email"
                 required
                 value={formData.email}
@@ -139,7 +141,7 @@ const Login: React.FC = () => {
               />
 
               <Input
-                label="Password"
+                label={t('admin:auth.password')}
                 type="password"
                 required
                 value={formData.password}
@@ -159,14 +161,14 @@ const Login: React.FC = () => {
                     type="checkbox"
                     className="rounded border-gray-300 text-primary focus:border-primary focus:ring-primary"
                   />
-                  <span className="ml-2 text-sm text-gray-600">Remember me</span>
+                  <span className="ml-2 text-sm text-gray-600">{t('admin:auth.remember_me')}</span>
                 </label>
 
                 <button
                   type="button"
                   className="text-sm text-primary hover:text-primary/80 font-medium transition-colors duration-200"
                 >
-                  Forgot password?
+                  {t('admin:auth.forgot_password')}
                 </button>
               </div>
 
@@ -178,22 +180,22 @@ const Login: React.FC = () => {
                 loading={loading}
                 disabled={loading}
               >
-                {loading ? 'Signing In...' : 'Sign In'}
+                {loading ? t('admin:auth.signing_in') : t('admin:auth.sign_in')}
               </Button>
             </form>
 
             {/* Demo Credentials */}
             <div className="mt-8 pt-6 border-t border-gray-200">
               <div className="text-center">
-                <p className="text-sm text-gray-500 mb-3">Demo Credentials:</p>
+                <p className="text-sm text-gray-500 mb-3">{t('admin:auth.demo_credentials')}:</p>
                 <div className="grid grid-cols-2 gap-3 text-xs">
                   <div className="p-2 bg-gray-50 rounded">
-                    <div className="font-medium text-gray-700">Admin</div>
+                    <div className="font-medium text-gray-700">{t('admin:auth.admin_role')}</div>
                     <div className="text-gray-500">admin@artificialstone.com</div>
                     <div className="text-gray-500">admin123</div>
                   </div>
                   <div className="p-2 bg-gray-50 rounded">
-                    <div className="font-medium text-gray-700">Editor</div>
+                    <div className="font-medium text-gray-700">{t('admin:auth.editor_role')}</div>
                     <div className="text-gray-500">editor@artificialstone.com</div>
                     <div className="text-gray-500">editor123</div>
                   </div>

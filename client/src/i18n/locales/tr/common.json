@@ -1,0 +1,84 @@
+{
+  "languages": {
+    "en": "English",
+    "tr": "Türkçe"
+  },
+  "navigation": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "products": "Ürünler",
+    "services": "Hizmetler",
+    "contact": "İletişim",
+    "admin": "Yönetici"
+  },
+  "actions": {
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "delete": "Sil",
+    "edit": "Düzenle",
+    "add": "Ekle",
+    "create": "Oluştur",
+    "update": "Güncelle",
+    "search": "Ara",
+    "filter": "Filtrele",
+    "view": "Görüntüle",
+    "close": "Kapat",
+    "submit": "Gönder",
+    "reset": "Sıfırla",
+    "back": "Geri",
+    "next": "İleri",
+    "previous": "Önceki",
+    "upload": "Yükle",
+    "download": "İndir",
+    "remove": "Kaldır",
+    "select": "Seç",
+    "confirm": "Onayla"
+  },
+  "status": {
+    "active": "Aktif",
+    "inactive": "Pasif",
+    "enabled": "Etkin",
+    "disabled": "Devre Dışı",
+    "published": "Yayında",
+    "draft": "Taslak",
+    "pending": "Beklemede",
+    "approved": "Onaylandı",
+    "rejected": "Reddedildi",
+    "completed": "Tamamlandı",
+    "processing": "İşleniyor",
+    "loading": "Yükleniyor...",
+    "success": "Başarılı",
+    "error": "Hata",
+    "warning": "Uyarı",
+    "info": "Bilgi"
+  },
+  "forms": {
+    "required": "Bu alan zorunludur",
+    "invalid_email": "Lütfen geçerli bir e-posta adresi girin",
+    "password_min_length": "Şifre en az 6 karakter olmalıdır",
+    "passwords_not_match": "Şifreler eşleşmiyor",
+    "invalid_url": "Lütfen geçerli bir URL girin",
+    "invalid_phone": "Lütfen geçerli bir telefon numarası girin",
+    "file_too_large": "Dosya boyutu çok büyük",
+    "unsupported_file_type": "Desteklenmeyen dosya türü"
+  },
+  "time": {
+    "just_now": "Şimdi",
+    "minutes_ago": "{{count}} dakika önce",
+    "hours_ago": "{{count}} saat önce",
+    "days_ago": "{{count}} gün önce",
+    "weeks_ago": "{{count}} hafta önce",
+    "months_ago": "{{count}} ay önce",
+    "years_ago": "{{count}} yıl önce"
+  },
+  "pagination": {
+    "page": "Sayfa",
+    "of": "toplam",
+    "items_per_page": "Sayfa başına öğe",
+    "showing": "Gösteriliyor",
+    "to": "-",
+    "items": "öğe",
+    "first": "İlk",
+    "last": "Son"
+  }
+}

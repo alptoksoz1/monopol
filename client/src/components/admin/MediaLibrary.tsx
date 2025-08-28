@@ -88,7 +88,7 @@ const MediaLibrary: React.FC<MediaLibraryProps> = ({
       _id: '4',
       filename: 'product-catalog.pdf',
       originalName: 'Product Catalog 2024.pdf',
-      url: '/api/placeholder/file.pdf',
+      url: 'https://www.example.com/sample-catalog.pdf',
       type: 'document',
       size: 5432100,
       createdAt: '2024-01-17T11:45:00Z',
